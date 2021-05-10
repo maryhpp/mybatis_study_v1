@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3c94d87-bbcf-4d98-91c0-cfd694ae0afa" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/73164426-29c4-406c-9f4e-2e0e82047526.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1da9cc8-1c82-47f4-a942-7e52a1b01d81.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1da9cc8-1c82-47f4-a942-7e52a1b01d81/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/mybatis-01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/kuang/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/kuang/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/kuang/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/kuang/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/kuang/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/kuang/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/kuang/utils/MybatisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/target/test-classes/com/kuang/dao/UserDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_study_v1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="machang &lt;790105818@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\SSM\Mybatis\mybatis_study_v1\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\LocalRepository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1sKFZt7h3aYszSLkH85xXxUBEDr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager">
+    <configuration name="UserDaoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserDaoTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@31779614" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3c94d87-bbcf-4d98-91c0-cfd694ae0afa" name="Default Changelist" comment="" />
+      <created>1620613432930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620613432930</updated>
+      <workItem from="1620613435698" duration="10448000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1620637524255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620637524256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620627984253">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="443" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1620627984253" />
+    <state x="862" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1620629228454">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="862" y="147" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1620629228454" />
+    <state x="493" y="12" key="CommitChangelistDialog2" timestamp="1620641024572">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="493" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1620641024572" />
+    <state x="276" y="80" key="DiffContextDialog" timestamp="1620637874779">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="276" y="80" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1620637874779" />
+    <state x="739" y="113" key="FileChooserDialogImpl" timestamp="1620638124283">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="739" y="113" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620638124283" />
+    <state x="786" y="303" key="Github.ShareDialog" timestamp="1620638781787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="786" y="303" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1620638781787" />
+    <state width="1146" height="208" key="GridCell.Tab.0.bottom" timestamp="1620631408615">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1146" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620631408615" />
+    <state width="1146" height="208" key="GridCell.Tab.0.center" timestamp="1620631408615">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1146" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620631408615" />
+    <state width="1146" height="208" key="GridCell.Tab.0.left" timestamp="1620631408615">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1146" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620631408615" />
+    <state width="1146" height="208" key="GridCell.Tab.0.right" timestamp="1620631408615">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1146" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620631408615" />
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1620627746634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1620627746634" />
+    <state x="537" y="32" key="SettingsEditor" timestamp="1620637057510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="537" y="32" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1620637057510" />
+    <state x="387" y="143" key="Vcs.Push.Dialog.v2" timestamp="1620638862198">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="387" y="143" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620638862198" />
+    <state x="713" y="184" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1620627756443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="713" y="184" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.824@0.0.1536.824" timestamp="1620627756443" />
+    <state x="412" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1620613436477">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="412" y="320" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1620613436477" />
+    <state x="356" y="120" key="new project wizard" timestamp="1620614695852">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="120" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1620614695852" />
+    <state x="962" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1620630358356">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="962" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620630358356" />
+    <state x="950" y="225" key="svn.repositoryBrowser" timestamp="1620638103201">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="950" y="225" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1620638103201" />
+  </component>
+</project>
