@@ -6,16 +6,20 @@
       <change afterPath="$PROJECT_DIR$/../Mybatis-study1/mybatis-01/src/main/java/com/kuang/dao/UserMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Mybatis-study1/mybatis-01/src/main/java/com/kuang/utils/MybatisUtils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Mybatis-study1/mybatis-01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/kuang/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/META-INF/mybatis-01.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/kuang/dao/UserMapper.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/kuang/dao/UserMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/kuang/pojo/User.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/kuang/utils/MybatisUtils.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/mybatis-config.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/test-classes/com/kuang/dao/UserDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/73164426-29c4-406c-9f4e-2e0e82047526.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/kuang/dao/UserDao.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/kuang/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/kuang/dao/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-01/src/test/java/com/kuang/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/test/java/com/kuang/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,29 +112,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-02/target/classes" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest.getUserLike">
-    <configuration name="UserDaoTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kuang.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kuang.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.kuang.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="addUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kuang.dao" />
+      <recent name="com.kuang.pojo" />
+      <recent name="com.kuang.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SSM\Mybatis\mybatis_study_v1\mybatis-02\target\classes" />
+      <recent name="D:\SSM\Mybatis\mybatis_study_v1\mybatis-02\src\main\java\com\kuang\dao" />
+      <recent name="D:\SSM\Mybatis\mybatis_study_v1\mybatis-02\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserDaoTest.getUserList">
     <configuration name="UserDaoTest.deleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-01" />
       <extension name="coverage">
@@ -163,6 +163,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserDaoTest.getUserLike (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="getUserLike" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserDaoTest.getUserLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-01" />
       <extension name="coverage">
@@ -179,8 +195,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-01" />
+    <configuration name="UserDaoTest.getUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kuang.dao.*" />
@@ -189,7 +205,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kuang.dao" />
       <option name="MAIN_CLASS_NAME" value="com.kuang.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="updateUser" />
+      <option name="METHOD_NAME" value="getUserList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.getUserList" />
+        <item itemvalue="JUnit.UserDaoTest.getUserLike (1)" />
         <item itemvalue="JUnit.UserDaoTest.getUserLike" />
         <item itemvalue="JUnit.UserDaoTest.getUserById2" />
         <item itemvalue="JUnit.UserDaoTest.deleteUser" />
-        <item itemvalue="JUnit.UserDaoTest.updateUser" />
-        <item itemvalue="JUnit.UserDaoTest.addUser" />
       </list>
     </recent_temporary>
   </component>
@@ -210,17 +226,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@3c3b9d64" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -239,6 +245,10 @@
       <updated>1620613432930</updated>
       <workItem from="1620613435698" duration="11097000" />
       <workItem from="1620801377388" duration="6469000" />
+      <workItem from="1620893166103" duration="2163000" />
+      <workItem from="1620957536407" duration="4852000" />
+      <workItem from="1620984565977" duration="327000" />
+      <workItem from="1621214639974" duration="633000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1620637524255</created>
@@ -254,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620641060092</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增删改查">
+      <created>1620893284067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620893284067</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,9 +279,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="增删改查" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="722" y="102" key="#Project_Structure" timestamp="1620893979652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="102" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1620893979652" />
     <state x="443" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620627984253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -273,10 +295,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="862" y="147" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1620629228454" />
-    <state x="493" y="12" key="CommitChangelistDialog2" timestamp="1620641059215">
+    <state x="493" y="12" key="CommitChangelistDialog2" timestamp="1621217479290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="493" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1620641059215" />
+    <state x="493" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621217479290" />
     <state x="276" y="80" key="DiffContextDialog" timestamp="1620637874779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -289,22 +311,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="786" y="303" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1620638781787" />
-    <state width="1146" height="254" key="GridCell.Tab.0.bottom" timestamp="1620813974491">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1620984892971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1146" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620813974491" />
-    <state width="1146" height="254" key="GridCell.Tab.0.center" timestamp="1620813974491">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620984892971" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1620984892970">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1146" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620813974491" />
-    <state width="1146" height="254" key="GridCell.Tab.0.left" timestamp="1620813974491">
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620984892970" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1620984892970">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1146" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620813974491" />
-    <state width="1146" height="254" key="GridCell.Tab.0.right" timestamp="1620813974491">
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620984892970" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1620984892970">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1146" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620813974491" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620984892970" />
     <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1620627746634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -313,22 +335,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="537" y="32" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1620637057510" />
-    <state x="387" y="143" key="Vcs.Push.Dialog.v2" timestamp="1620641080710">
+    <state x="387" y="143" key="Vcs.Push.Dialog.v2" timestamp="1620893304597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="387" y="143" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620641080710" />
+    <state x="387" y="143" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620893304597" />
     <state x="713" y="184" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1620627756443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="713" y="184" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.824@0.0.1536.824" timestamp="1620627756443" />
-    <state x="412" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1620893166446">
+    <state x="412" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1621214664269">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="412" y="320" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1620893166446" />
-    <state x="356" y="120" key="new project wizard" timestamp="1620614695852">
+    <state x="412" y="320" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1621214664269" />
+    <state x="356" y="120" key="new project wizard" timestamp="1620893633874">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="356" y="120" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1620614695852" />
+    <state x="356" y="120" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1620893633874" />
     <state x="962" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1620806703131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

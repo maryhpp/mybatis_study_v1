@@ -6,11 +6,8 @@
 <!--namespace = 绑定一个对应的Dao/Mapper接口-->
 <mapper namespace="com.kuang.dao.UserMapper">
 
-    <!-- select * from mybatis.user where id = ?
-         select * from mybatis.user where id = 1 or 1=1
-      -->
     <select id="getUserLike" resultType="com.kuang.pojo.User">
-        select  * from mybatis.user where name like "%"#{value}"%"
+        select  * from mybatis.user where name like #{value}
     </select>
 
 
