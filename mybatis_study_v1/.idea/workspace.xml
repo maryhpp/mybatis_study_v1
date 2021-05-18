@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3c94d87-bbcf-4d98-91c0-cfd694ae0afa" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/../Mybatis-study1/mybatis-01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mybatis-study1/mybatis-01/src/main/java/com/kuang/dao/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mybatis-study1/mybatis-01/src/main/java/com/kuang/utils/MybatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mybatis-study1/mybatis-01/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/log/kuang.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/java/com/kuang/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/kuang/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/java/com/kuang/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/kuang/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/src/test/java/com/kuang/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/src/test/java/com/kuang/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/target/classes/com/kuang/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/target/classes/com/kuang/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/target/classes/com/kuang/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/target/classes/com/kuang/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/target/test-classes/com/kuang/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/target/test-classes/com/kuang/dao/UserDaoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +127,7 @@
       <recent name="D:\SSM\Mybatis\mybatis_study_v1\mybatis-03\src\test\java\com" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest.getUserById (1)">
+  <component name="RunManager" selected="JUnit.UserDaoTest.getUserByRowBounds">
     <configuration name="UserDaoTest.getUserById (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-04" />
       <extension name="coverage">
@@ -159,8 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.getUserList (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-03" />
+    <configuration name="UserDaoTest.getUserByLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-04" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kuang.dao.*" />
@@ -169,14 +170,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kuang.dao" />
       <option name="MAIN_CLASS_NAME" value="com.kuang.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="getUserList" />
+      <option name="METHOD_NAME" value="getUserByLimit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.getUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-02" />
+    <configuration name="UserDaoTest.getUserByRowBounds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-04" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kuang.dao.*" />
@@ -185,7 +186,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kuang.dao" />
       <option name="MAIN_CLASS_NAME" value="com.kuang.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="getUserList" />
+      <option name="METHOD_NAME" value="getUserByRowBounds" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -209,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.getUserByRowBounds" />
+        <item itemvalue="JUnit.UserDaoTest.getUserByLimit" />
         <item itemvalue="JUnit.UserDaoTest.getUserById (1)" />
         <item itemvalue="JUnit.UserDaoTest.testLog4j" />
         <item itemvalue="JUnit.UserDaoTest.getUserById" />
-        <item itemvalue="JUnit.UserDaoTest.getUserList (1)" />
-        <item itemvalue="JUnit.UserDaoTest.getUserList" />
       </list>
     </recent_temporary>
   </component>
@@ -221,8 +222,19 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.18027486" />
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3bb48b24" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -245,7 +257,8 @@
       <workItem from="1620957536407" duration="4852000" />
       <workItem from="1620984565977" duration="327000" />
       <workItem from="1621214639974" duration="7988000" />
-      <workItem from="1621247126609" duration="2175000" />
+      <workItem from="1621247126609" duration="2385000" />
+      <workItem from="1621300622129" duration="4900000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1620637524255</created>
@@ -282,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621221917325</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LOG4J">
+      <created>1621249351533</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621249351533</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +313,8 @@
     <MESSAGE value="增删改查" />
     <MESSAGE value="second commit" />
     <MESSAGE value="mybatis-03解决属性名和字段名不一致地问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis-03解决属性名和字段名不一致地问题" />
+    <MESSAGE value="LOG4J" />
+    <option name="LAST_COMMIT_MESSAGE" value="LOG4J" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="102" key="#Project_Structure" timestamp="1621218077554">
@@ -312,10 +333,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="936" y="172" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1621233328019" />
-    <state x="493" y="12" key="CommitChangelistDialog2" timestamp="1621221916640">
+    <state x="493" y="12" key="CommitChangelistDialog2" timestamp="1621249350766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="493" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621221916640" />
+    <state x="493" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621249350766" />
     <state x="276" y="80" key="DiffContextDialog" timestamp="1620637874779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -328,22 +349,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="786" y="303" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1620638781787" />
-    <state width="1266" height="216" key="GridCell.Tab.0.bottom" timestamp="1621249170341">
+    <state width="1266" height="213" key="GridCell.Tab.0.bottom" timestamp="1621305793912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1266" height="216" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621249170341" />
-    <state width="1266" height="216" key="GridCell.Tab.0.center" timestamp="1621249170341">
+    <state width="1266" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621305793912" />
+    <state width="1266" height="213" key="GridCell.Tab.0.center" timestamp="1621305793912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1266" height="216" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621249170341" />
-    <state width="1266" height="216" key="GridCell.Tab.0.left" timestamp="1621249170341">
+    <state width="1266" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621305793912" />
+    <state width="1266" height="213" key="GridCell.Tab.0.left" timestamp="1621305793912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1266" height="216" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621249170341" />
-    <state width="1266" height="216" key="GridCell.Tab.0.right" timestamp="1621249170341">
+    <state width="1266" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621305793912" />
+    <state width="1266" height="213" key="GridCell.Tab.0.right" timestamp="1621305793912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1266" height="216" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621249170341" />
+    <state width="1266" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621305793912" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1621218451768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -368,26 +389,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621222563538" />
-    <state x="387" y="143" key="Vcs.Push.Dialog.v2" timestamp="1621221938787">
+    <state x="387" y="143" key="Vcs.Push.Dialog.v2" timestamp="1621249472813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="387" y="143" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1621221938787" />
+    <state x="387" y="143" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1621249472813" />
     <state x="713" y="184" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1620627756443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="713" y="184" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.824@0.0.1536.824" timestamp="1620627756443" />
-    <state x="412" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1621247135341">
+    <state x="412" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1621300711874">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="412" y="320" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1621247135341" />
+    <state x="412" y="320" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1621300711874" />
     <state x="356" y="208" key="new project wizard" timestamp="1621222050834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="356" y="208" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1621222050834" />
-    <state x="962" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1621249134604">
+    <state x="962" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1621305504600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="962" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1621249134604" />
+    <state x="962" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1621305504600" />
     <state x="950" y="225" key="svn.repositoryBrowser" timestamp="1620638103201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

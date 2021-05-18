@@ -18,4 +18,15 @@
         select * from mybatis.user where id = #{id};
     </select>
 
+<!--    分页-->
+    <select id="getUserByLimit" parameterType="map" resultType="User" resultMap="UserMap">
+        select * from mybatis.user limit #{stratIndex},#{pageSize};
+    </select>
+
+
+    <!--    分页-->
+    <select id="getUserByRowBounds"  resultMap="UserMap">
+        select * from mybatis.user;
+    </select>
+
 </mapper>
