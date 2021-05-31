@@ -11,7 +11,8 @@
     <modules>
         <module>springmvc-01-servlet</module>
         <module>springmvc-02-hellomvc</module>
-        <module>springmvc-02</module>
+        <module>hellomvc3</module>
+        <module>springmvc-03-annotation</module>
     </modules>
 
     <!-- 导入依赖   -->
@@ -49,5 +50,35 @@
             <artifactId>org.springframework.web.servlet</artifactId>
             <version>3.1.0.RELEASE</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.1.9.RELEASE</version>
+        </dependency>
+
     </dependencies>
+
+
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
 </project>
