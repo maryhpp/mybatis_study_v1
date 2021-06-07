@@ -9,6 +9,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/spingmvc-05-json/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-02-hellomvc2/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-02/pom.xml" />
       </set>

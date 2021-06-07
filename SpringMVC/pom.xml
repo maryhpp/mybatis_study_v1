@@ -13,6 +13,9 @@
         <module>springmvc-02-hellomvc</module>
         <module>hellomvc3</module>
         <module>springmvc-03-annotation</module>
+        <module>springmvc-04-controller</module>
+        <module>spingmvc-05-json</module>
+        <module>springmvc-05-json</module>
     </modules>
 
     <!-- 导入依赖   -->
@@ -45,11 +48,11 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>org.springframework.web.servlet</artifactId>
-            <version>3.1.0.RELEASE</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework</groupId>-->
+<!--            <artifactId>org.springframework.web.servlet</artifactId>-->
+<!--            <version>3.1.0.RELEASE</version>-->
+<!--        </dependency>-->
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
         <dependency>
             <groupId>org.springframework</groupId>
